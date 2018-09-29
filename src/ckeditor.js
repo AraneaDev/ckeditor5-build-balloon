@@ -74,10 +74,16 @@ BalloonEditor.defaultConfig = {
 	},
 	image: {
 		toolbar: [
-			'imageStyle:full',
-			'imageStyle:side',
+			'imageTextAlternative',
 			'|',
-			'imageTextAlternative'
+			'imageStyle:alignLeft',
+			'imageStyle:full',
+			'imageStyle:alignRight'
+		],
+		styles: [
+			'full',
+			'alignLeft',
+			'alignRight'
 		]
 	},
 	table: {
