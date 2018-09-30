@@ -141,6 +141,15 @@
     "@ckeditor/ckeditor5-typing" "^11.0.0"
     "@ckeditor/ckeditor5-undo" "^10.0.2"
 
+"@ckeditor/ckeditor5-font@^10.0.2":
+  version "10.0.2"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-font/-/ckeditor5-font-10.0.2.tgz#5aa81808d45b44dfdcf736b566320837e57ad7ae"
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^11.0.0"
+    "@ckeditor/ckeditor5-engine" "^10.2.0"
+    "@ckeditor/ckeditor5-ui" "^11.0.0"
+    "@ckeditor/ckeditor5-utils" "^10.2.0"
+
 "@ckeditor/ckeditor5-heading@^10.0.2":
   version "10.0.2"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-heading/-/ckeditor5-heading-10.0.2.tgz#7caf3790dc338f51f46a04f04f2af70fa95b5dae"
@@ -762,9 +771,9 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-ckeditor5-simple-upload@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/ckeditor5-simple-upload/-/ckeditor5-simple-upload-1.0.4.tgz#e9a4ba4d6d7fb894e68f41ee6e92536c2375ca1b"
+"ckeditor5-simple-upload@github:AraneaDev/ckeditor5-simple-upload":
+  version "1.0.3"
+  resolved "https://codeload.github.com/AraneaDev/ckeditor5-simple-upload/tar.gz/f25d0a9e2e79f083bb2798db0a91674005960273"
   dependencies:
     "@ckeditor/ckeditor5-core" "^10.0.0"
     "@ckeditor/ckeditor5-engine" "^10.0.0"

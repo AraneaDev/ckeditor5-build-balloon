@@ -44,7 +44,7 @@
     "@ckeditor/ckeditor5-table": "^10.1.0",
     "@ckeditor/ckeditor5-theme-lark": "^11.0.0",
     "@ckeditor/ckeditor5-upload": "^10.0.2",
-    "ckeditor5-simple-upload": "^1.0.4",
+    "ckeditor5-simple-upload": "github:AraneaDev/ckeditor5-simple-upload",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^0.5.1",
     "style-loader": "^0.23.0",
