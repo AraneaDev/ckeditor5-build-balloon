@@ -52,7 +52,7 @@ BalloonEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	SimpleUpload,
-	Font
+	//Font
 ];
 
 // Editor configuration.
@@ -63,9 +63,9 @@ BalloonEditor.defaultConfig = {
 			'|',
 			'bold',
 			'italic',
-            '|',
-            'fontSize',
-			'fontFamily',
+            //'|',
+            //'fontSize',
+			//'fontFamily',
             '|',
 			'link',
 			'bulletedList',
