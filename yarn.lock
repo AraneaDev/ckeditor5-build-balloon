@@ -55,7 +55,7 @@
     "@ckeditor/ckeditor5-core" "^11.0.0"
     "@ckeditor/ckeditor5-utils" "^10.2.0"
 
-"@ckeditor/ckeditor5-core@^10.0.0":
+"@ckeditor/ckeditor5-core@^10.0.0", "@ckeditor/ckeditor5-core@^10.1.0":
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-core/-/ckeditor5-core-10.1.0.tgz#e543705382afd6f70ba6628aa5d5a6a29d521a38"
   dependencies:
@@ -770,6 +770,13 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
+
+ckeditor5-emptyness@alexeckermann/ckeditor5-emptyness:
+  version "0.2.0"
+  resolved "https://codeload.github.com/alexeckermann/ckeditor5-emptyness/tar.gz/5a8b22320ad79875c778fba39fc609a8a370b6aa"
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^10.1.0"
+    "@ckeditor/ckeditor5-engine" "^10.1.0"
 
 "ckeditor5-simple-upload@github:AraneaDev/ckeditor5-simple-upload":
   version "1.0.3"
