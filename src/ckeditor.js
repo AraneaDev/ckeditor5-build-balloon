@@ -75,7 +75,7 @@ BalloonEditor.defaultConfig = {
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
-			'addDiv',
+			//'addDiv',
 			//'mediaEmbed',
 			'undo',
 			'redo'
