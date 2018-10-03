@@ -39,7 +39,7 @@
     "@ckeditor/ckeditor5-image": "^10.2.0",
     "@ckeditor/ckeditor5-link": "^10.0.3",
     "@ckeditor/ckeditor5-list": "^11.0.1",
-    "@ckeditor/ckeditor5-media-embed": "^0.0.1",
+    "@ckeditor/ckeditor5-media-embed": "ckeditor/ckeditor5-media-embed",
     "@ckeditor/ckeditor5-paragraph": "^10.0.2",
     "@ckeditor/ckeditor5-table": "^10.1.0",
     "@ckeditor/ckeditor5-theme-lark": "^11.0.0",
@@ -69,6 +69,6 @@
     "preversion": "npm run build; if [ -n \"$(git status src/ckeditor.js build/ --porcelain)\" ]; then git add -u src/ckeditor.js build/ && git commit -m 'Internal: Build.'; fi"
   },
   "dependencies": {
-    "ckeditor5-emptyness": "alexeckermann/ckeditor5-emptyness"
+    "ckeditor5-div-editor": "AraneaDev/ckeditor5-div-editor"
   }
 }
