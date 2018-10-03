@@ -5,7 +5,7 @@
 
 // The editor creator to use.
 import BalloonEditorBase from '@ckeditor/ckeditor5-editor-balloon/src/ballooneditor';
-import Emptyness from 'ckeditor5-emptyness/src/emptyness';
+
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 //import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
@@ -52,8 +52,7 @@ BalloonEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	SimpleUpload,
-	//Font,
-    Emptyness,
+	//Font
 ];
 
 // Editor configuration.
