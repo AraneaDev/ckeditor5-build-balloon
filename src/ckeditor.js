@@ -15,6 +15,7 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 //import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
+import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
@@ -43,6 +44,7 @@ BalloonEditor.builtinPlugins = [
 	BlockQuote,
 	//EasyImage,
 	Heading,
+    Highlight,
 	Image,
 	ImageCaption,
 	ImageStyle,
@@ -64,12 +66,15 @@ BalloonEditor.defaultConfig = {
 	toolbar: {
 		items: [
 			'heading',
+            '|',
             'alignment',
 			'|',
 			'bold',
 			'italic',
             'blockQuote',
 			'|',
+			'highlight',
+            '|',
             'bulletedList',
             'numberedList',
             //'|',
