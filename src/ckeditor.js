@@ -27,7 +27,7 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import SimpleUpload from 'ckeditor5-simple-upload/src/simpleupload';
-import DivEditor from 'ckeditor5-div-editor/src/divEditor';
+//import DivEditor from 'ckeditor5-div-editor/src/divEditor';
 //import Font from '@ckeditor/ckeditor5-font/src/font';
 
 export default class BalloonEditor extends BalloonEditorBase {}
@@ -56,7 +56,7 @@ BalloonEditor.builtinPlugins = [
 	TableToolbar,
 	SimpleUpload,
 	//Font,
-    DivEditor
+    //DivEditor
 ];
 
 // Editor configuration.
@@ -67,20 +67,20 @@ BalloonEditor.defaultConfig = {
 			'|',
 			'bold',
 			'italic',
+            'blockQuote',
+            'link',
 			'|',
 			'alignment',
+            'bulletedList',
+            'numberedList',
             //'|',
             //'fontSize',
 			//'fontFamily',
             '|',
-			'link',
-			'bulletedList',
-			'numberedList',
 			'imageUpload',
-			'blockQuote',
-			'insertTable',
+            'mediaEmbed',
+			//'insertTable',
 			//'addDiv',
-			'mediaEmbed',
 			'undo',
 			'redo'
 		]
