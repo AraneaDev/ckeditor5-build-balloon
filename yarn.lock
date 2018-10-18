@@ -916,14 +916,6 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-ckeditor5-div-editor@AraneaDev/ckeditor5-div-editor:
-  version "1.0.0"
-  resolved "https://codeload.github.com/AraneaDev/ckeditor5-div-editor/tar.gz/cecf888cea8f7f61181d47eec663329f21137783"
-  dependencies:
-    "@ckeditor/ckeditor5-core" "^11.0.0"
-    "@ckeditor/ckeditor5-engine" "^10.2.0"
-    "@ckeditor/ckeditor5-ui" "^11.0.0"
-
 "ckeditor5-simple-upload@github:AraneaDev/ckeditor5-simple-upload":
   version "1.0.3"
   resolved "https://codeload.github.com/AraneaDev/ckeditor5-simple-upload/tar.gz/f25d0a9e2e79f083bb2798db0a91674005960273"
